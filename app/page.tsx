@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <div className="bg-white/15 rounded-xl px-4 py-3 text-sm">
             <span className="font-bold text-white">🗓️ 주말 (토~일)</span>
-            <span className="text-blue-100 ml-2">오전 9:00 ~ 밤 10:00</span>
+            <span className="text-blue-100 ml-2">오전 9:00 ~ 오후 10:00</span>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="h-px bg-blue-200" />
             <div className="flex justify-between items-center">
               <span className="text-slate-700 font-medium text-base">토요일 ~ 일요일</span>
-              <span className="text-blue-700 font-bold text-base">오전 9:00 ~ 밤 10:00</span>
+              <span className="text-blue-700 font-bold text-base">오전 9:00 ~ 오후 10:00</span>
             </div>
           </div>
           <p className="mt-3 text-blue-600 text-sm text-center">💡 편한 시간에 자유롭게 참여하세요!</p>
