@@ -34,7 +34,14 @@ export default function Home() {
         >
           💻 줌 스터디 참여하기!
         </a>
-        <p className="text-blue-200 text-xs mt-3">클릭하면 Zoom 스터디룸으로 바로 연결됩니다</p>
+        <a
+          href="https://aitutor.seoltab.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 bg-white/20 border border-white/40 text-white font-bold text-base w-full py-4 rounded-2xl mt-3 active:scale-95 transition-transform"
+        >
+          🤖 AI 튜터 이용하기
+        </a>
       </section>
 
       <div className="px-4 py-8 space-y-10 max-w-lg mx-auto">
