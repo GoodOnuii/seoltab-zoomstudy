@@ -18,10 +18,10 @@ export default function Home() {
         <div className="flex flex-col gap-2 mt-4 mb-8">
           <div className="bg-white/15 rounded-xl px-4 py-3 text-sm">
             <span className="font-bold text-white">📅 평일 (월~금)</span>
-            <span className="text-blue-100 ml-2">오후 6:00 ~ 11:00</span>
+            <span className="text-blue-100 ml-2">오후 6:00 ~ 10:00</span>
           </div>
           <div className="bg-white/15 rounded-xl px-4 py-3 text-sm">
-            <span className="font-bold text-white">🗓️ 주말 (토~일)</span>
+            <span className="font-bold text-white">🗓️ 토요일</span>
             <span className="text-blue-100 ml-2">오전 9:00 ~ 오후 10:00</span>
           </div>
         </div>
@@ -52,11 +52,11 @@ export default function Home() {
           <div className="space-y-2.5">
             <div className="flex justify-between items-center">
               <span className="text-slate-700 font-medium text-base">월요일 ~ 금요일</span>
-              <span className="text-blue-700 font-bold text-base">오후 6:00 ~ 11:00</span>
+              <span className="text-blue-700 font-bold text-base">오후 6:00 ~ 10:00</span>
             </div>
             <div className="h-px bg-blue-200" />
             <div className="flex justify-between items-center">
-              <span className="text-slate-700 font-medium text-base">토요일 ~ 일요일</span>
+              <span className="text-slate-700 font-medium text-base">토요일</span>
               <span className="text-blue-700 font-bold text-base">오전 9:00 ~ 오후 10:00</span>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
             <StepCard
               step={1}
               title="Zoom 접속"
-              desc="평일 오후 6~11시, 주말 오전 9시~밤 10시 중 편한 시간에 자유롭게 접속해요."
+              desc="평일(월~금) 오후 6~10시, 토요일 오전 9시~오후 10시 중 편한 시간에 자유롭게 접속해요."
               tip="아래 '줌 스터디 참여하기!' 버튼을 누르면 바로 연결돼요!"
             />
             <StepCard
